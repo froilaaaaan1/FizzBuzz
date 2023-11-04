@@ -2,18 +2,14 @@ import java.util.Scanner;
 
 public class Main {
 	private static String FizzBuzz(int num) {
-	    if (num % 5 == 0 && num % 3 == 0) {
+	    if (num % 5 == 0 && num % 3 == 0)
 	        return "FizzBuzz";
-	    }
-	    else if (num % 3 == 0) {
+	    else if (num % 3 == 0)
 	        return "Buzz";
-	    }
-	    else if (num % 5 == 0) {
+	    else if (num % 5 == 0)
 	        return "Fizz";
-	    }
-	    else {
+	    else
 	        return String.valueOf(num);
-	    }
 	}
 	
 	public static void main(String[] args) {
